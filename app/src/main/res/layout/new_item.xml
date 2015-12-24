@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f8f8f8"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/height_1"
+        android:layout_weight="3" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/height_5"
+        android:layout_weight="7" >
+
+        <TextView
+            android:id="@+id/texttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/height_5"
+            android:singleLine="true"
+            android:text="21321"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_middle17" />
+
+        <TextView
+            android:id="@+id/textcontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/texttitle"
+            android:layout_marginBottom="@dimen/height_5"
+            android:layout_marginRight="@dimen/height_10"
+            android:layout_marginTop="@dimen/height_5"
+            android:maxLines="2"
+            android:text="21321"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/textcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="21321"
+
+            android:layout_marginRight="@dimen/height_10"
+            android:layout_marginTop="@dimen/height_5" />
+    </RelativeLayout>
+
+</LinearLayout>
